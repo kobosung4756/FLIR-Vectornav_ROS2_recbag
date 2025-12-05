@@ -145,11 +145,7 @@ cd ~/Documents
 
 # ros2 bag record [토픽명1] [토픽명2] ...
 # -o 옵션으로 파일명 지정
-ros2 bag record -o my_dataset_01 \
-  /vectornav/imu_uncompensated \
-  /vectornav/magnetic \
-  /thermal/image_raw \
-  /tf_static
+ros2 bag record -o my_dataset_01 /vectornav/imu_uncompensated /vectornav/magnetic /thermal/image_raw /tf_static
 ```
 
 ## 💡 타임싱크(Time Synchronization)에 대한 조언
